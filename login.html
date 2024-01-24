@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form Tailwind Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <div class="flex h-screen">
+    <img class="hidden lg:block w-1/2" src="https://images.pexels.com/photos/19850845/pexels-photo-19850845/free-photo-of-a-city-street-with-cars-and-buildings-in-the-background.jpeg" alt="">
+    <div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
+      <div>
+        <div class="text-xl text-center font-bold lg:text-left">
+          <span class="text-green-600">&#9650;</span>
+          <span>FramMan</span>
+        </div>
+        <div class="mt-16 text-2xl text-center font-bold lg:text-left">
+          <h2>Hello,</h2>
+          <h2>Welcome Back</h2>
+        </div>
+        <!-- login form -->
+        <form action="" class="mt-8 w-[80%] lg:w-96 mx-auto space-y-4">
+          <h4>Login to Manage your account</h4>
+          <input type="email" class="border w-full px-2 py-4" placeholder="Email">
+          <input type="password" class="border w-full px-2 py-4" placeholder="Password">
+          <div class="text-blue-600 cursor-pointer hover:text-blue-400">Forgot Password?</div>
+          <div class="text-center font-bold w-full bg-green-600 text-white rounded py-2 hover:bg-green-500">Login</div>
+        </form>
+      </div>
+
+
+      <div class="text-center space-y-4 mt-4">
+        <span>or</span>
+        <div class="flex justify-center items-center gap-8">
+          <i class="fa-brands fa-facebook text-2xl cursor-pointer"> </i>
+          <i class="fa-brands fa-google text-2xl cursor-pointer"> </i>
+          <i class="fa-brands fa-instagram text-2xl cursor-pointer"> </i>
+        </div>
+      </div>
+
+      <div class="mt-4 text-sm text-center">
+        Don't have an account? <span class="text-blue-600 cursor-pointer">Sign Up here</span> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
